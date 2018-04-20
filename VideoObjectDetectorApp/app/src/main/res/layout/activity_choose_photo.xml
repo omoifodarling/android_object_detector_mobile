@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TakePhoto"
+    tools:showIn="@layout/photo_display"
+    android:background="@color/colorPrimaryDark">
+
+    <Button
+        android:id="@+id/useGallery"
+        android:layout_width="244dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="336dp"
+        android:layout_marginEnd="97dp"
+        android:layout_marginStart="97dp"
+        android:layout_marginTop="127dp"
+        android:contentDescription="@string/p_op_1_descr"
+        android:text="@string/gallery_picture"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="@string/photo_op1" />
+
+    <Button
+        android:id="@+id/takePhoto"
+        android:layout_width="232dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="158dp"
+        android:layout_marginEnd="69dp"
+        android:layout_marginStart="69dp"
+        android:layout_marginTop="130dp"
+        android:contentDescription="@string/p_op_2"
+        android:text="@string/take_photo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/useGallery"
+        tools:text="@string/snap_photo" />
+</android.support.constraint.ConstraintLayout>
+
+    <!--ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/analyzed_image"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@color/colorPrimary" /-->
+
+

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorGray"
+    android:textAlignment="center"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/photo_button"
+        android:layout_width="318dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="76dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:contentDescription="@string/picture_descrip"
+        android:text="@string/picture_dnn"
+        android:textAllCaps="true"
+        app:layout_constraintBottom_toTopOf="@+id/video_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="@string/picture_dnn" />
+
+    <Button
+        android:id="@+id/video_button"
+        android:layout_width="316dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/video_file_dnn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.64" />
+
+    <!--Button
+        android:id="@+id/threaded_button"
+        android:layout_width="316dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/enhanced_video_file_dnn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.955" />
+
+    <Button
+        android:id="@+id/live_stream_button"
+        android:layout_width="313dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="160dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:text="@string/live_dnn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+
+    <Button
+        android:id="@+id/web_button"
+        android:layout_width="319dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/file_web_desc"
+        android:text="@string/web_button"
+        app:layout_constraintBottom_toTopOf="@+id/threaded_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/video_file_button"
+        app:layout_constraintVertical_bias="0.87"
+        tools:text="@string/file_web_button" />
+        <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="361dp"
+        android:layout_height="71dp"
+        android:layout_marginBottom="81dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginStart="12dp"
+        android:adjustViewBounds="true"
+        android:background="@android:drawable/editbox_dropdown_dark_frame"
+        android:contentDescription="@android:string/yes"
+        android:cropToPadding="true"
+        android:scaleType="fitCenter"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/photo_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="?android:attr/textSelectHandleRight" /-->
+
+    <!--ListView
+        android:id="@+id/listView2"
+        android:layout_width="368dp"
+        android:layout_height="127dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:background="@android:color/holo_blue_light"
+        android:cacheColorHint="@color/colorAccent"
+        android:entries="@array/sports_array"
+        android:scrollbarAlwaysDrawHorizontalTrack="true"
+        android:scrollbarStyle="insideOverlay"
+        android:scrollbars="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.642" /-->
+
+    <!--TextView
+        android:id="@+id/textView2"
+        android:layout_width="369dp"
+        android:layout_height="34dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        android:autoSizeTextType="uniform"
+        android:text="@string/list_view_name"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/listView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:targetApi="o"
+        tools:text="@string/view_name" /-->
+
+</android.support.constraint.ConstraintLayout>

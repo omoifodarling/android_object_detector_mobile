@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Video Object Detector App</string>
+    <string name="picture_dnn">Picture DNN</string>
+    <string name="video_file_dnn">Video DNN</string>
+    <string name="enhanced_video_file_dnn">Multi-Threaded DNN Stream</string>
+    <string name="live_dnn">LIVE STREAM</string>
+    <string name="picture_descrip">Use this for image DNN analysis</string>
+    <string name="dnn_picture">DNN Picture</string>
+    <string name="take_picture">Snap IT</string>
+    <string name="view_name">Some Images Processed</string>
+    <string name="list_view_name">SOme Processed Images from DNN</string>
+    <string-array name="sports_array">
+        <item>Shuttle Badminton</item>
+        <item>Hockey</item>
+        <item>Ice Hockey</item>
+        <item>Beach Football</item>
+        <item>Beach Volleyball</item>
+        <item>Kindle</item>
+        <item>Ludo</item>
+        <item>Shuttle Badminton</item>
+        <item>Tennis</item>
+        <item>FootBall</item>
+        <item>Basket Ball</item>
+        <item>Table Tennis</item>
+        <item>Chess</item>
+        <item>Hockey</item>
+    </string-array>
+    <string name="title_activity_live_stream">LiveStream</string>
+    <string name="analyzed_image">DNN Image Result</string>
+    <string name="photo_op1">Use Gallery</string>
+    <string name="p_op_1_descr">You can choose from gallery</string>
+    <string name="gallery_picture">Gallery</string>
+    <string name="take_photo">SNAP</string>
+    <string name="snap_photo">Snap Photo</string>
+    <string name="p_op_2">You can use the camera in taking a photo</string>
+    <string name="photo_display_descr">This shows where the photo is shown</string>
+    <string name="file_web_button">File/Web Stream</string>
+    <string name="file_web_desc">This is for parsing URL resource for streaming</string>
+    <string name="web_button">Web URL</string>
+</resources>
